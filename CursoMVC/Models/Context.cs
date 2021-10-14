@@ -20,6 +20,11 @@ namespace CursoMVC.Models
         {
             optionsBuilder.UseSqlServer(connectionString:@"Server=(localdb)\mssqllocaldb;Database=Cursomvc;Integrated Security=true");
         }
+
+        public void SetModified(Categoria categoria)
+        {
+            throw new NotImplementedException();
+        }
         #endregion Methods
     }
 }
